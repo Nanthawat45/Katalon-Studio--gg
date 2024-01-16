@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01 - Search By Keywoed,Chrome 120.0.0.0,,,16-01-2024 15:31:43,16-01-2024 15:34:26,2m - 42.313s,PASSED
+,,,,,,,
+Test Cases/UC01-Search By Keyword/TC0103 - Search By Keyword-pbru,Chrome 120.0.0.0,,,16-01-2024 15:31:43,16-01-2024 15:32:15,31.532s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,16-01-2024 15:31:44,16-01-2024 15:31:45,1.440s,PASSED
+"navigateToUrl(""https://www.yahoo.com/"")",Chrome 120.0.0.0,,,16-01-2024 15:31:45,16-01-2024 15:32:10,25.140s,PASSED
+"setText(findTestObject(""Page_Yahoo  Mail, Weather, Search, Politics_802e32/input_p""), ""pbru"")",Chrome 120.0.0.0,,,16-01-2024 15:32:10,16-01-2024 15:32:11,1.097s,PASSED
+"click(findTestObject(""Page_Yahoo  Mail, Weather, Search, Politics_802e32/buttonybar-search""))",Chrome 120.0.0.0,,,16-01-2024 15:32:11,16-01-2024 15:32:13,1.388s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏเพชรบุรี"", false)",Chrome 120.0.0.0,,,16-01-2024 15:32:13,16-01-2024 15:32:15,2.179s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,16-01-2024 15:32:15,16-01-2024 15:32:15,0.105s,PASSED
+,,,,,,,
+Test Cases/UC01-Search By Keyword/TC0102 - Search By Keyword - kru university,Chrome 120.0.0.0,,,16-01-2024 15:32:15,16-01-2024 15:32:23,8.481s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,16-01-2024 15:32:15,16-01-2024 15:32:16,0.608s,PASSED
+"navigateToUrl(""https://www.yahoo.com/"")",Chrome 120.0.0.0,,,16-01-2024 15:32:16,16-01-2024 15:32:18,2.292s,PASSED
+"setText(findTestObject(""Object Repository/Page_Yahoo  Mail, Weather, Search, Politics_802e32/input_p""), ""npru"")",Chrome 120.0.0.0,,,16-01-2024 15:32:18,16-01-2024 15:32:20,2.195s,PASSED
+"click(findTestObject(""Object Repository/Page_Yahoo  Mail, Weather, Search, Politics_802e32/buttonybar-search""))",Chrome 120.0.0.0,,,16-01-2024 15:32:20,16-01-2024 15:32:21,0.963s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏนครปฐม"", false)",Chrome 120.0.0.0,,,16-01-2024 15:32:21,16-01-2024 15:32:23,2.270s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,16-01-2024 15:32:23,16-01-2024 15:32:23,0.095s,PASSED
+,,,,,,,
+Test Cases/UC01-Search By Keyword/TC0101 - Search By Keyword - npru,Chrome 120.0.0.0,,,16-01-2024 15:32:23,16-01-2024 15:32:54,30.177s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,16-01-2024 15:32:24,16-01-2024 15:32:24,0.542s,PASSED
+"navigateToUrl(""https://www.yahoo.com/"")",Chrome 120.0.0.0,,,16-01-2024 15:32:24,16-01-2024 15:32:48,24.086s,PASSED
+"setText(findTestObject(""Object Repository/Page_Yahoo  Mail, Weather, Search, Politics_802e32/input_p""), ""kru university"")",Chrome 120.0.0.0,,,16-01-2024 15:32:48,16-01-2024 15:32:49,1.043s,PASSED
+"click(findTestObject(""Object Repository/Page_Yahoo  Mail, Weather, Search, Politics_802e32/buttonybar-search""))",Chrome 120.0.0.0,,,16-01-2024 15:32:49,16-01-2024 15:32:51,1.422s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏกาญจนบุรี"", false)",Chrome 120.0.0.0,,,16-01-2024 15:32:51,16-01-2024 15:32:54,2.918s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,16-01-2024 15:32:54,16-01-2024 15:32:54,0.097s,PASSED
+,,,,,,,
+Test Cases/UC02 - Search/TC0101 - Search By Keyword - npru,Chrome 120.0.0.0,,,16-01-2024 15:32:54,16-01-2024 15:33:28,34.285s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,16-01-2024 15:32:54,16-01-2024 15:32:54,0.549s,PASSED
+"navigateToUrl(""https://www.yahoo.com/"")",Chrome 120.0.0.0,,,16-01-2024 15:32:54,16-01-2024 15:33:18,23.323s,PASSED
+"setText(findTestObject(""Object Repository/Page_Yahoo  Mail, Weather, Search, Politics_802e32/input_p""), ""kru university"")",Chrome 120.0.0.0,,,16-01-2024 15:33:18,16-01-2024 15:33:22,4.152s,PASSED
+"click(findTestObject(""Object Repository/Page_Yahoo  Mail, Weather, Search, Politics_802e32/buttonybar-search""))",Chrome 120.0.0.0,,,16-01-2024 15:33:22,16-01-2024 15:33:24,2.040s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏกาญจนบุรี"", false)",Chrome 120.0.0.0,,,16-01-2024 15:33:24,16-01-2024 15:33:28,4.108s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,16-01-2024 15:33:28,16-01-2024 15:33:28,0.100s,PASSED
+,,,,,,,
+Test Cases/UC02 - Search/TC0102 - Search By Keyword - kru university,Chrome 120.0.0.0,,,16-01-2024 15:33:28,16-01-2024 15:33:57,29.386s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,16-01-2024 15:33:28,16-01-2024 15:33:29,0.600s,PASSED
+"navigateToUrl(""https://www.yahoo.com/"")",Chrome 120.0.0.0,,,16-01-2024 15:33:29,16-01-2024 15:33:52,22.982s,PASSED
+"setText(findTestObject(""Object Repository/Page_Yahoo  Mail, Weather, Search, Politics_802e32/input_p""), ""npru"")",Chrome 120.0.0.0,,,16-01-2024 15:33:52,16-01-2024 15:33:54,2.456s,PASSED
+"click(findTestObject(""Object Repository/Page_Yahoo  Mail, Weather, Search, Politics_802e32/buttonybar-search""))",Chrome 120.0.0.0,,,16-01-2024 15:33:54,16-01-2024 15:33:55,0.658s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏนครปฐม"", false)",Chrome 120.0.0.0,,,16-01-2024 15:33:55,16-01-2024 15:33:57,2.577s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,16-01-2024 15:33:57,16-01-2024 15:33:57,0.103s,PASSED
+,,,,,,,
+Test Cases/UC02 - Search/TC0103 - Search By Keyword-pbru,Chrome 120.0.0.0,,,16-01-2024 15:33:57,16-01-2024 15:34:26,28.319s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,16-01-2024 15:33:57,16-01-2024 15:33:58,0.606s,PASSED
+"navigateToUrl(""https://www.yahoo.com/"")",Chrome 120.0.0.0,,,16-01-2024 15:33:58,16-01-2024 15:34:22,23.866s,PASSED
+"setText(findTestObject(""Page_Yahoo  Mail, Weather, Search, Politics_802e32/input_p""), ""pbru"")",Chrome 120.0.0.0,,,16-01-2024 15:34:22,16-01-2024 15:34:23,1.049s,PASSED
+"click(findTestObject(""Page_Yahoo  Mail, Weather, Search, Politics_802e32/buttonybar-search""))",Chrome 120.0.0.0,,,16-01-2024 15:34:23,16-01-2024 15:34:24,0.654s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏเพชรบุรี"", false)",Chrome 120.0.0.0,,,16-01-2024 15:34:24,16-01-2024 15:34:26,2.040s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,16-01-2024 15:34:26,16-01-2024 15:34:26,0.092s,PASSED
